@@ -206,4 +206,13 @@ public class Concession {
 		}
 	
 	}
+	public String formatterTexteAffichageVehicules(Concession c) {
+		String s="<html> La concession "+c.getNom()+" a une trésorerie de "+c.getTrésorerie()+" euros. Voici sa liste de véhicules ci-dessous(vous pouvez cliquer sur le bouton pour afficher les informations de chaque véhicule : <br>";
+		for(Vehicule v:liste_vehicules) {
+			s+=v+"<br>";
+		}
+		s+="</html>";
+		return s;
+		
+	}
 }

@@ -97,11 +97,9 @@ public class Program {
 		//On affiche les informations d'un seul véhicule
 		//fenetreInfoVoiture.getLabel().setText(moto1.toString());
 		AfficheInformationsConcession afficheconcession=new AfficheInformationsConcession();
-		String texteAffichageConcession="<html> La concession "+concession2.getNom()+" a une trésorerie de "+concession2.getTrésorerie()+" euros. Voici sa liste de véhicules ci-dessous(vous pouvez cliquer sur le bouton pour afficher les informations de chaque véhicule : <br>";
-		texteAffichageConcession+=concession2.inventaire();
-		texteAffichageConcession+="</html>";
 		//debutTexteConcession+=debutTexteConcession;
-		afficheconcession.getLabel().setText(texteAffichageConcession);
+		//afficheconcession.getLabel().setText(formatterTexteAffichageVehicules());
+		
 		
 		
 		
