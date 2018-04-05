@@ -207,7 +207,7 @@ public class Concession {
 	
 	}
 	
-/*
+
 	//
 	 // Méthode qui retourne un String bien formatté pour l'affichage dans un JLabel
 	 // @return
@@ -220,6 +220,6 @@ public class Concession {
 		s+="</html>";
 		return s;
 	}
-*/
+
 	
 }

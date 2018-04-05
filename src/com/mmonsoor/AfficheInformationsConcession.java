@@ -24,7 +24,7 @@ public class AfficheInformationsConcession extends JFrame {
 		this.setSize(500, 500);
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		panneau=new JPanel();
 		panneau.setLayout(null);
 		this.setContentPane(panneau);

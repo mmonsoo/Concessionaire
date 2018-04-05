@@ -116,4 +116,25 @@ public class EmpireMotorise {
 			System.out.println("Il n'y a pas de concessions dans l'empire.");
 		}
 	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public List<Concession> getListe_concessions() {
+		return liste_concessions;
+	}
+	public void setListe_concessions(List<Concession> liste_concessions) {
+		this.liste_concessions = liste_concessions;
+	}
+	public int getTresorerie() {
+		return tresorerie;
+	}
+	public void setTresorerie(int tresorerie) {
+		this.tresorerie = tresorerie;
+	}
+	
+	
+	
 }
