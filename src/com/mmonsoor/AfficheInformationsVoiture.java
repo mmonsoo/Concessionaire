@@ -14,7 +14,7 @@ public class AfficheInformationsVoiture extends JFrame {
 		this.setSize(900, 900);
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		panneau=new JPanel();
 		panneau.setLayout(null);
 		this.setContentPane(panneau);

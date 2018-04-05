@@ -206,13 +206,20 @@ public class Concession {
 		}
 	
 	}
-	public String formatterTexteAffichageVehicules(Concession c) {
-		String s="<html> La concession "+c.getNom()+" a une trésorerie de "+c.getTrésorerie()+" euros. Voici sa liste de véhicules ci-dessous(vous pouvez cliquer sur le bouton pour afficher les informations de chaque véhicule : <br>";
-		for(Vehicule v:liste_vehicules) {
-			s+=v+"<br>";
+	
+/*
+	//
+	 // Méthode qui retourne un String bien formatté pour l'affichage dans un JLabel
+	 // @return
+	 ///
+	public String formatterTexteAffichageVehicules() {
+		String s="<html> La concession "+this.getNom()+" a une trésorerie de "+this.getTrésorerie()+" euros. Voici sa liste de véhicules ci-dessous(vous pouvez cliquer sur le bouton pour afficher les informations de chaque véhicule : <br><br>";
+		for(Vehicule v:this.getListe_vehicules()) {
+			s+=v.getClass().getSimpleName()+" "+this.getListe_vehicules().indexOf(v)+"<br><br>";
 		}
 		s+="</html>";
 		return s;
-		
 	}
+*/
+	
 }

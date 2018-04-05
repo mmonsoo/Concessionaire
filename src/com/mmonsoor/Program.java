@@ -96,17 +96,16 @@ public class Program {
 		//AfficheInformationsVoiture fenetreInfoVoiture=new AfficheInformationsVoiture();
 		//On affiche les informations d'un seul véhicule
 		//fenetreInfoVoiture.getLabel().setText(moto1.toString());
-		AfficheInformationsConcession afficheconcession=new AfficheInformationsConcession();
-		//debutTexteConcession+=debutTexteConcession;
-		//afficheconcession.getLabel().setText(formatterTexteAffichageVehicules());
+		//AfficheInformationsConcession afficheconcession=new AfficheInformationsConcession();
+		//Pour une concession, on affiche le label associé: informations de la concession.
+		//afficheconcession.getLabel().setText(concession2.formatterTexteAffichageVehicules());
+		//ça prend une concession et va ajouter des boutons dans le JPanel
+		//afficheconcession.ajoutBoutonVehicule(concession2);
+		//On va créer l'objet AfficheEmpire
+		AfficheEmpire afficheEmpire=new AfficheEmpire();
+		//On va appeler la méthode afficheInfoEmpire qui prend un empire crée.
+		afficheEmpire.afficheInfoEmpire(empireMotorise1);
 		
-		
-		
-		
-
-		
-		
-
 	}
 
 }
