@@ -11,6 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class AfficheInformationsConcession extends JFrame {
 	//Attributs de la classe
 	//Attributs de la classe

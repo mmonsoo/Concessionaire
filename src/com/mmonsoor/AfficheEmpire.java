@@ -59,4 +59,11 @@ public class AfficheEmpire extends JFrame {
 		}
 		
 	}
+	
+	public void afficheJeuEmpire(EmpireMotorise e) {
+		
+		
+		
+	}
+	
 }

@@ -85,7 +85,7 @@ public class Program {
 		//empireMotorise1.valeurEmpire();
 		//empireMotorise1.inventaire();
 		//On va tester déplacerStock
-		empireMotorise1.deplacerStock(0, 1);
+		//empireMotorise1.deplacerStock(0, 1);
 		empireMotorise1.inventaire();
 		//On va créer la fenêtre principale du jeu
 		//FenetreConcession maFenetrePrincipale=new FenetreConcession();
@@ -102,9 +102,16 @@ public class Program {
 		//ça prend une concession et va ajouter des boutons dans le JPanel
 		//afficheconcession.ajoutBoutonVehicule(concession2);
 		//On va créer l'objet AfficheEmpire
-		AfficheEmpire afficheEmpire=new AfficheEmpire();
+		//AfficheEmpire afficheEmpire=new AfficheEmpire();
 		//On va appeler la méthode afficheInfoEmpire qui prend un empire crée.
-		afficheEmpire.afficheInfoEmpire(empireMotorise1);
+		//afficheEmpire.afficheInfoEmpire(empireMotorise1);
+		//On appelle la fenêtre jeu
+		//FenetreJeu jeuconcession=new FenetreJeu();
+		//jeuconcession.afficheJeu(empireMotorise1);
+		GestionnaireFenetreJeu Jeux=new GestionnaireFenetreJeu(empireMotorise1);
+		
+		
+		
 		
 	}
 
