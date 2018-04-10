@@ -82,7 +82,6 @@ public class Concession {
 			liste_vehicules.remove(i);
 			System.out.println("On a supprimé le véhicule numéro ["+i+"]");
 			System.out.println("La trésorerie est de :"+trésorerie+" euros.");
-
 		}
 
 		else {

@@ -1,6 +1,7 @@
 package com.mmonsoor;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.JFrame;
 
@@ -77,16 +78,16 @@ public class Program {
 		EmpireMotorise empireMotorise1=new EmpireMotorise("Monsoor Family");
 		empireMotorise1.ajouterConcession(concession1);
 		empireMotorise1.ajouterConcession(concession2);
-		System.out.println("RESULTAT AVANT VENTE");
-		empireMotorise1.valeurEmpire();
+		//System.out.println("RESULTAT AVANT VENTE");
+		//empireMotorise1.valeurEmpire();
 		//empireMotorise1.vendreConcession(0);
-		System.out.println("RESULTAT APRES VENTE");
+		//System.out.println("RESULTAT APRES VENTE");
 		//empireMotorise1.valeurEmpire();
 		//empireMotorise1.valeurEmpire();
 		//empireMotorise1.inventaire();
 		//On va tester déplacerStock
 		//empireMotorise1.deplacerStock(0, 1);
-		empireMotorise1.inventaire();
+		//empireMotorise1.inventaire();
 		//On va créer la fenêtre principale du jeu
 		//FenetreConcession maFenetrePrincipale=new FenetreConcession();
 		//maFenetrePrincipale.setTitle("Bienvenue dans le jeu de la concession");
@@ -108,11 +109,16 @@ public class Program {
 		//On appelle la fenêtre jeu
 		//FenetreJeu jeuconcession=new FenetreJeu();
 		//jeuconcession.afficheJeu(empireMotorise1);
-		GestionnaireFenetreJeu Jeux=new GestionnaireFenetreJeu(empireMotorise1);
+		//empireMotorise1.inventaire();
+		//ArrayList d'index de voitures à vendre
+		List <String> listeVehiculesAVendre= new ArrayList<String>();
+		listeVehiculesAVendre.add("0,0");
+		//listeVehiculesAVendre.add("0,1");
+		//listeVehiculesAVendre.add("1,1");
+		GestionnaireFenetreJeu Jeux=new GestionnaireFenetreJeu(empireMotorise1,listeVehiculesAVendre);
 		
 		
-		
-		
+			
 	}
 
 }
